@@ -1,0 +1,384 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: ;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/* Global CSS here */
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+.row{
+	width: 100%;
+	float: left;
+}
+
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+
+.col-md-4{
+	width: 33.33%;
+	float: left;
+}
+
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+/* Global CSS end */
+
+/* Header Secton here */
+.header-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+}
+
+.logo{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+}
+/* Banner Section Start */
+
+.banner-section{
+	width: 100%;
+	float: left;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px 20px;
+}
+
+.banner-section .banner-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 80px 0px 20px;
+}
+
+.banner-section .banner-inner h1{
+	font-size: 72px;
+    color: #fff;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner-section .banner-inner .divider{
+	width: 40%;
+	background: #15a4fa;
+	margin: 15px auto;
+	height: 2px;
+}
+.banner-section .banner-inner .divider:hover{
+
+}
+.banner-section .banner-inner p{
+	color: #fff;
+	line-height: 24px;
+	margin-top: 30px;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+.banner-section .banner-inner .btn-info{
+	border: 2px solid #15a4fa; 
+	color: #fff;
+	background-color: transparent;
+	display: inline-block;
+	border-radius: 2px;
+	margin: 70px auto 20px;
+	padding: 15px 35px;
+	transition: .1s; 
+}
+
+.banner-section .banner-inner .btn-info:hover{
+	border: 2px solid #15a4fa; 
+	color: #fff;
+	background-color: #15a4fa;
+}
+
+.banner-section .banner-inner .icon{
+	float: left;
+	margin-top: 40px;
+	display: inline-block;
+	width: 100%;
+	padding: 80px 0px 20px;
+}
+/* Banner Section End */
+
+/* Simple Section Start */
+.simple-section{
+	float: left;
+	width: 100%;
+	padding: 60px 0px;
+	background: #f6f9f9;	
+}
+
+.simple-section .simple-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.simple-section .simple-inner h1{
+	font-size: 42px;
+    color: #2d3950;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.simple-section .simple-inner p{
+	font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+/* Simple  Section End */
+
+/* Feature Section Start */
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+
+.feature-section .inner-feature{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.feature-section .inner-feature img{
+	margin-bottom: 20px;
+}
+.feature-section .inner-feature h4{
+	font-size: 22px;
+    color: #2d3950;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+
+.feature-section .inner-feature p{
+	font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+/* Feature Section End */
+/* Portfolio-section Start */
+
+.portfolio-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+.portfolio-section .title{
+	text-align: center;
+	width: 100%;
+	float: left;
+	padding-bottom: 50px;
+}
+
+.portfolio-section .title h1{
+	font-size: 42px;
+    color: #2d3950;
+    line-height: 52px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+.portfolio-section .title p{
+	font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+.portfolio-section .inner-portfolio{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+.portfolio-section .inner-portfolio .port-hover{
+	width: 95%;
+	height: 97%;
+	float: left;
+	position: absolute;
+	background: rgb(26, 154, 235, .8);
+	top: 0;
+	left: 0;
+	display:  none;
+}
+
+.portfolio-section .inner-portfolio .port-hover .inner-icons{
+	float: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.portfolio-section .inner-portfolio:hover  .port-hover{
+	display: block;
+}
+
+.top{
+	margin-top: 10px;
+}
+/* Portfolio-section End */
+
+/* Stay-section Start */
+
+.stay-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url("../images/staybg.png") center top no-repeat;
+	background-size: cover;
+}
+
+.stay-section .title{
+	width: 100%;
+	float: left;
+	text-align: center;
+	
+}
+
+.stay-section .title h1{
+	font-size: 42px;
+    color: #fff;
+    line-height: 52px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+.stay-section .title p{
+	font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.stay-section .main-form{
+	width: 55%;
+	margin: 0px auto;
+}
+
+.stay-section .main-form .form-group{
+	width: 100%;
+	float: left;
+	margin: 10px 0px ;
+}
+
+.stay-section .main-form .form-group .form-control{
+	width: 96%;
+	padding: 12px;
+	background: transparent;
+	border: 2px solid #999;
+	border-radius: 5px;
+	color: #999;
+	float: left;
+	font-size: 14px;
+}
+.stay-section .main-form .form-group .form-control:focus{
+	border: 2px solid #15a4fa;
+	outline: 0;
+
+}
+.stay-section .main-form .text-right{
+	text-align: right;
+}
+
+.form-group span{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.stay-section .main-form .btn-primary{
+	border: 2px solid #15a4fa; 
+	color: #fff;
+	background-color: transparent;
+	display: inline-block;
+	border-radius: 2px;
+	padding: 10px 40px;
+	transition: .1s;
+}
+
+.stay-section .main-form .btn-primary:hover{
+	border: 2px solid #15a4fa; 
+	color: #fff;
+	background-color: #15a4fa;
+}
+/* Stay-section End */
+
+/* Footer Section Start */
+.footer-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 15px 0px;
+}
+
+.footer-section p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+/* 	margin-top: 10px; */
+}
+.fa-cog {
+  color: black;
+}
+.footer-section .social-icons{
+	display: block;
+	text-align: right;
+}
+
+.footer-section .social-icons li{
+	display: inline-block;
+	list-style: none;
+}
+
+.footer-section .social-icons li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #15a4fa;
+	border: 1px solid #15a4fa; 
+	border-radius: 2px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	transition: .5s;
+}
+
+.footer-section .social-icons li a:hover{
+	background: transparent ;
+	border: 1px solid #15a4fa;
+	color: #15a4fa;
+}
